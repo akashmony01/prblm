@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The R&D Tax Show</title>
+    <!-- owl carousel styling -->
+    <link rel="stylesheet" href="build/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="build/owl/owl.theme.default.css">
+    <!-- custom styling -->
+    <link rel="stylesheet" href="build/css/main.css">
+</head>
+<body class="font-gtWalsheimRegular">
+    <header class="py-1 fixed top-0 left-0 right-0 z-40 duration-300">
+        <div class="container max-w-screen-xl mx-auto px-4 md:px-9 flex items-center justify-between">
+            <a href="index.html" class="block w-24">
+                <img class="logoImg duration-300 w-full" src="build/img/gp-logo.svg" alt="logo">
+            </a>
+            <div class="flex items-center justify-end flex-wrap">
+                <ul id="menu" class="menu">
+                    <li class="menuList">
+                        <a href="taxExplain.html" class="flex items-center lg:p-4 text-xl md:text-lg text-white font-gtWalsheimMedium hover:text-secondery duration-300">
+                            R&D Tax Explained
+                        </a>
+                    </li>
+                    <li class="menuList">
+                        <a href="taxShow.html" class="flex items-center text-secondery lg:p-4 text-xl md:text-lg text-white font-gtWalsheimMedium hover:text-secondery duration-300">
+                            R&D Tax Show                        
+                        </a>
+                    </li>
+                    <li class="menuList relative submenuContainer">
+                        <a href="ourProcess.html" class="subMenuBtn flex items-center p-1 lg:p-4 text-xl md:text-lg text-white font-gtWalsheimMedium hover:text-secondery duration-300">
+                            <span class="block mr-1">Working with accountants</span>
+                            <svg aria-colspan="w-6" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <ul class="subMenu hidden duration-300 absolute bg-primary text-white text-lg font-gtWalsheimMedium p-4 bottom-0 left-2/4 w-full transform translate-y-full -translate-x-2/4">
+                            <li>
+                                <a href="whyUs.html" class="block hover:text-secondery duration-300 py-2">
+                                    Why choose GrowthPad?
+                                </a>
+                            </li>
+                            <li>
+                                <a href="faq.html" class="block hover:text-secondery duration-300 py-2">
+                                    Frequently Asked Questions
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menuList">
+                        <a href="blog.html" class="flex items-center p-1 lg:p-4 text-xl md:text-lg text-white font-gtWalsheimMedium hover:text-secondery duration-300">
+                            Blog
+                        </a>
+                    </li>
+                </ul>
+                <a href="" class="shakeRotate hidden md:flex items-center ml-3 py-3 px-8 rounded-lg bg-secondery text-white text-large font-gtWalsheimMedium">
+                    <svg class="w-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    </svg>
+                    <span>
+                        01302 460 221
+                    </span>
+                </a>
+                <a id="menuBtn" class="block relative h-10 w-10 lg:hidden text-secondery ml-3 cursor-pointer z-50">
+                    <span id="menuOpen" class="menuOpen">
+                        <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </span>
+                    <span id="menuClose" class="menuClose">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="">
+        <!-- hero section -->
+        <section class="pt-24 relative overflow-x-hidden bg-cover bg-no-repeat bg-center" style="background-image: url('build/img/taxExplain/hero.jpg');">
+            <!-- overlay -->
+            <div class="bg-primary absolute top-0 left-0 right-0 bottom-0 z-1 opacity-95"></div>
+            <div class="container max-w-screen-xl mx-auto pt-10 lg:pt-20 xl:pt-40 pb-10 md:pb-20 lg:pb-28 px-4 md:px-9 sticky z-10 text-white text-center">
+                <h1 class="text-5xl leading-normal mb-4 font-gtWalsheimBold">
+                    The R&D Tax Show
+                </h1>
+                <p class="text-lg">
+                    Everything you need to know about R & D Tax in easy-to-digest bites.
+                </p>
+            </div>
+            <div class="text-white absolute bottom-0 left-2/4 transform -translate-x-2/4 flex flex-col justify-end" style="width: 158%; height: 350px;">
+                <svg fill="#fff" class="w-full h-1/4 md:h-2/4 lg:h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- latest episode -->
+        <section class="py-14">
+            <div class="container max-w-screen-xl mx-auto px-4 md:px-9">
+                <div class="shadow-lg md:shadow-none lg:bg-gray-50 flex flex-col md:flex-row justify-between items-stretch">    
+                    <figure class="w-full md:w-5/12 lg:w-2/4">
+                        <a href="" class="block h-full static md:relative lg:static overflow-hidden">
+                            <img class="w-full md:w-auto md:max-w-none lg:w-full md:h-full lg:h-auto md:absolute lg:static md:top-0 md:left-2/4 lg:left-auto md:transform md:-translate-x-2/4 lg:translate-x-0" src="build/img/taxShow/tsImg1.jpg" alt="">
+                        </a>
+                    </figure>
+                    <div class="md:w-7/12 lg:w-2/4 px-8 py-6 text-lg">
+                        <a href="" class="block mb-4 text-secondery text-3xl font-gtWalsheimBold">
+                            Episode 9: Do you know if your clients qualify for R&D tax relief?
+                        </a>
+                        <span class="block text-textLight mb-2 opacity-80">December 1, 2020</span>
+                        <p class="mb-4 text-textLight">
+                            Today’s episode is to help accountants and tax professionals identify 
+                            if they have qualifying clients for R&D tax.  
+                            Stick around to learn more. Lets Go!
+                        </p>
+                        <a href="" class="block text-secondery">
+                            Read More »
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- previous episode -->
+        <section class="bg-gray-100 py-14">
+            <div class="container max-w-screen-xl mx-auto px-4 md:px-9">
+                <h4 class="mb-14 text-center text-secondery text-3xl font-gtWalsheimBold">
+                    Previous Episodes
+                </h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white shadow-md hover:shadow-sm duration-300">
+                        <a href="" class="block overflow-hidden h-52 sm:h-80 md:h-60 lg:h-52 relative">
+                            <img class="w-full absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4" src="build/img/taxShow/tsImg2.jpg" alt="img">
+                        </a>
+                        <article class="p-6 font-gtWalsheimMedium">
+                            <a href="" class="block text-secondery text-2xl leading-tight font-gtWalsheimBold mb-3">
+                                Eveniet in quia consequatur eum
+                            </a>
+                            <p class="text-textLight text-lg mb-4 opacity-80">
+                                November 23, 2020
+                            </p>
+                            <a href="" class="block text-secondery">
+                                Read More »
+                            </a>
+                        </article>
+                    </div>
+                    <div class="bg-white shadow-md hover:shadow-sm duration-300">
+                        <a href="" class="block overflow-hidden h-52 sm:h-80 md:h-60 lg:h-52 relative">
+                            <img class="w-full absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4" src="build/img/taxShow/tsImg3.jpg" alt="img">
+                        </a>
+                        <article class="p-6 font-gtWalsheimMedium">
+                            <a href="" class="block text-secondery text-2xl leading-tight font-gtWalsheimBold mb-3">
+                                Eveniet in quia consequatur eum
+                            </a>
+                            <p class="text-textLight text-lg mb-4 opacity-80">
+                                November 23, 2020
+                            </p>
+                            <a href="" class="block text-secondery">
+                                Read More »
+                            </a>
+                        </article>
+                    </div>
+                    <div class="bg-white shadow-md hover:shadow-sm duration-300">
+                        <a href="" class="block overflow-hidden h-52 sm:h-80 md:h-60 lg:h-52 relative">
+                            <img class="w-full absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4" src="build/img/taxShow/tsImg4.png" alt="img">
+                        </a>
+                        <article class="p-6 font-gtWalsheimMedium">
+                            <a href="" class="block text-secondery text-2xl leading-tight font-gtWalsheimBold mb-3">
+                                Eveniet in quia consequatur eum
+                            </a>
+                            <p class="text-textLight text-lg mb-4 opacity-80">
+                                November 23, 2020
+                            </p>
+                            <a href="" class="block text-secondery">
+                                Read More »
+                            </a>
+                        </article>
+                    </div>
+                    <div class="bg-white shadow-md hover:shadow-sm duration-300">
+                        <a href="" class="block overflow-hidden h-52 sm:h-80 md:h-60 lg:h-52 relative">
+                            <img class="w-full absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4" src="build/img/taxShow/tsImg5.png" alt="img">
+                        </a>
+                        <article class="p-6 font-gtWalsheimMedium">
+                            <a href="" class="block text-secondery text-2xl leading-tight font-gtWalsheimBold mb-3">
+                                Eveniet in quia consequatur eum
+                            </a>
+                            <p class="text-textLight text-lg mb-4 opacity-80">
+                                November 23, 2020
+                            </p>
+                            <a href="" class="block text-secondery">
+                                Read More »
+                            </a>
+                        </article>
+                    </div>
+                    <div class="bg-white shadow-md hover:shadow-sm duration-300">
+                        <article class="p-6 font-gtWalsheimMedium">
+                            <a href="" class="block text-secondery text-2xl leading-tight font-gtWalsheimBold mb-3">
+                                Eveniet in quia consequatur eum
+                            </a>
+                            <p class="text-textLight text-lg mb-4 opacity-80">
+                                November 23, 2020
+                            </p>
+                            <a href="" class="block text-secondery">
+                                Read More »
+                            </a>
+                        </article>
+                    </div>
+                    <div class="bg-white shadow-md hover:shadow-sm duration-300">
+                        <a href="" class="block overflow-hidden h-52 sm:h-80 md:h-60 lg:h-52 relative">
+                            <img class="w-full absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4" src="build/img/taxShow/tsImg6.jpg" alt="img">
+                        </a>
+                        <article class="p-6 font-gtWalsheimMedium">
+                            <a href="" class="block text-secondery text-2xl leading-tight font-gtWalsheimBold mb-3">
+                                Eveniet in quia consequatur eum
+                            </a>
+                            <p class="text-textLight text-lg mb-4 opacity-80">
+                                November 23, 2020
+                            </p>
+                            <a href="" class="block text-secondery">
+                                Read More »
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <ul class="flex flex-wrap justify-center text-secondery text-base font-gtWalsheimMedium pt-10">
+                    <li>
+                        <a href="" class="p-2 text-textColor">
+                            1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="p-2">
+                            2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="p-2">
+                            3
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="p-2">
+                            4
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Why choose GrowthPad -->
+        <section>
+            <div class="container max-w-screen-lg mx-auto px-4 py-14 flex flex-col-reverse md:flex-row items-center md:items-start justify-between">
+                <article class="text-lg text-textColor leading-relaxed md:w-7/12">
+                    <h4 class="mb-8 text-secondery text-3xl font-gtWalsheimBold leading-normal">
+                        Why choose GrowthPad?
+                    </h4>
+                    <p class="mb-8">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur 
+                        ornare at viverra dictum commodo sapien maecenas amet. 
+                        Eget non tincidunt enim nec lectus nunc sed. Vitae nulla gravida in 
+                        felis eget in. Ut sed arcu, vitae velit vulputate proin nunc.
+                    </p>
+                    <a href="" class="inline-block border text-base border-textColor py-2 px-10 rounded-lg">
+                        <span class="flex items-center">
+                            Read more about us
+                            <svg class="w-5 ml-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </span>
+                    </a>
+                </article>
+                <figure class="md:w-5/12 mb-14 md:mb-0">
+                    <img class="w-11/12 md:w-8/12 mx-auto md:mr-0" src="build/img/taxShow/why.png" alt="why">
+                </figure>
+            </div>
+            <div class="container max-w-screen-lg mx-auto px-4 py-14 flex flex-col md:flex-row items-center md:items-start justify-between">
+                <figure class="md:w-5/12 mb-14 md:mb-0">
+                    <img class="w-11/12 md:w-8/12 mx-auto md:ml-0" src="build/img/taxShow/faq.png" alt="why">
+                </figure>
+                <article class="text-lg text-textColor leading-relaxed md:w-7/12">
+                    <h4 class="mb-8 text-secondery text-3xl font-gtWalsheimBold leading-normal">
+                        You have Questions? We have answers.
+                    </h4>
+                    <p class="mb-8">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur 
+                        ornare at viverra dictum commodo sapien maecenas amet. Eget 
+                        non tincidunt enim nec lectus nunc sed. 
+                        Vitae nulla gravida in felis eget in. 
+                        Ut sed arcu, vitae velit vulputate proin nunc.
+                    </p>
+                    <a href="" class="inline-block border text-base border-textColor py-2 px-10 rounded-lg">
+                        <span class="flex items-center">
+                            Read our FAQ's
+                            <svg class="w-5 ml-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </span>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+    </main>
+    <!-- footer esction -->
+    <footer class="bg-primary pt-10 md:pt-20">
+        <div class="container mx-auto max-w-screen-xl px-4 md:px-9 pb-14 px-4 md:px-14 grid grid-cols-1 md:grid-cols-4 gap-5">
+            <a href="" class="block">
+                <img class="w-28" src="build/img/gp-logo.svg" alt="">
+            </a>
+            <div class="text-white">
+                <h6 class="text-xl font-gtWalsheimBold mb-6">
+                    GrowthPad Limited.
+                </h6>
+                <p class="text-base">
+                    <span class="block">
+                        Office 4 at Number 8
+                    </span>
+                    <span class="block">
+                        Cavendish Court
+                    </span>
+                    <span class="block">
+                        South Parade
+                    </span>
+                    <span class="block">
+                        Doncaster
+                    </span>
+                    <span class="block">
+                        DN1 2DJ
+                    </span>
+                </p>
+                <div class="text-base mt-4">
+                    <a href="" class="block duration-300 hover:text-secondery">
+                        hi@growthpad.co.uk
+                    </a>
+                    <a href="" class="block duration-300 hover:text-secondery">
+                        01302 460 221
+                    </a>
+                </div>
+            </div>
+            <div class="text-white">
+                <h6 class="text-xl font-gtWalsheimBold mb-6">
+                    Quick Links
+                </h6>
+                <ul class="text-base leading-loose">
+                    <li>
+                        <a href="" class="duration-300 hover:opacity-70">
+                            R&D Tax Explained
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="duration-300 hover:opacity-70">
+                            R&D Tax Show
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fdLink duration-300 hover:opacity-70 cursor-pointer">
+                            <span class="w-full flex items-start justify-between">
+                                Working with accountants
+                                <svg class="fdIcon transform w-4 h-8 duration-300 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </span>
+                        </a>
+                        <ul class="fdContent duration-300 ml-4 max-h-0 overflow-hidden">
+                            <li>
+                                <a href="" class="duration-300 hover:opacity-70">
+                                    Why choose GrowthPad?
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="duration-300 hover:opacity-70">
+                                    Frequently Asked Questions
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="duration-300 hover:opacity-70">
+                            Blog
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-white">
+                <h6 class="text-xl font-gtWalsheimBold mb-6">
+                    Social
+                </h6>
+                <ul class="flex flex-wrap">
+                    <li>
+                        <a href="" class="block mr-2 m-b-2">
+                            <img class="w-12" src="build/img/gp-logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="block mr-2 m-b-2">
+                            <img class="w-12" src="build/img/gp-logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="block mr-2 m-b-2">
+                            <img class="w-12" src="build/img/gp-logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="block mr-2 m-b-2">
+                            <img class="w-12" src="build/img/gp-logo.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg-darkSecondery border-t border-gray-50 border-opacity-10 py-4">
+            <div class="container mx-auto max-w-screen-xl px-4 md:px-9 text-center">
+                <p class="text-white text-base leading-normal">
+                    Copyright © 2020 GrowthPad Limited. 
+                    Company registration no: 10610522. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jquer script -->
+    <script src="build/js/jquery.min.js"></script>
+    <!-- owl carousel script -->
+    <script src="build/owl/owl.carousel.min.js"></script>
+    <!-- custom script -->
+    <script src="build/js/main.js"></script>
+</body>
+</html>
